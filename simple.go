@@ -18,7 +18,7 @@ var Instances = map[string]*SimpleClass{}
 // NativeScriptInit will run on NativeScript initialization. It is responsible
 // for registering all our classes with Godot.
 func nativeScriptInit() {
-	gdnative.Log.Warning("Initializing nativescript from Go!")
+	gdnative.Log.Warning("Initializing nativescript from Go Test!")
 
 	// Define an instance creation function. This will be called when Godot
 	// creates a new instance of our class.
